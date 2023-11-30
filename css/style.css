@@ -1,0 +1,261 @@
+body{
+    font-family: Arial,'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(158, 207, 255);
+}
+
+.navbar{
+    display: flex;
+    background-color: #ff0000;
+    padding: 15px 10px;
+    border-radius: 50px;
+    border-top-right-radius: 0%;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.logo-navbar{
+    width: 100%;
+    max-width: 100px;
+    max-height: 100px;
+    margin-left: 30px;
+}
+
+.navbar a{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    text-align: center;
+    margin-top: 30px;
+
+}
+
+.navbar a:hover{
+    color: #ffad28;
+    background-color: white;
+    border-radius: 50px;
+    border-top-right-radius: 0%;
+    margin-bottom: 15px;
+}
+
+.bt-navbar{
+    background-color: #ffffff;
+    border-radius: 20px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    padding: 0 30px;
+    margin-bottom: 30px;
+    margin-left: 200px;
+    margin-top: 30px;
+    width: 500px;
+    border: #ff0000;
+    
+}
+
+.bt-navbar1{
+    background-color: #ffad28;
+    color: #ffffff;
+    border: #ff0000;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    border-radius: 20px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 0%;
+}
+
+.bt-navbar1:hover{
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 0;
+}
+
+
+.banner{
+    background-image: url('file:///C:/Users/Aluno/Desktop/site/img/Banner%20frete%20gr%C3%A1tis%20simples%20rosa.jpg');
+    background-color: #ffad28;
+    background-size: cover;
+    background-position: center;
+    width: 1430px;
+    height: 500px;
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-right: 20px;
+    margin-left: 20px;
+    text-align: center;
+}
+
+.content{
+    display: flex;
+    padding: 30px;
+    justify-content: space-between;
+}
+
+
+.footer{
+    display: flex;
+    background-color: #ffff60;
+    color: #000000;
+    border-radius: 30px;
+
+}
+
+.logo-footer{
+    width: 100%;
+    max-width: 100px;
+}
+
+.footer h2{
+    font-size: 15px;
+    padding: 3px 10px;
+}
+
+.ft{
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.produto {
+    text-align: center;
+    border-radius: 20%;
+    padding: 15px;
+    margin: 10px;
+    background-color: white;
+    max-width: 300px;
+}
+.produto2 {
+    text-align: center;
+    border-radius: 20%;
+    padding: 15px;
+    margin: 10px;
+    background-color: white;
+    max-width: 100px;
+   height:100px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.botão-comprar {
+    background-color: #ffad28;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 20px;
+    border: #ffffff;
+    width: 90px;
+}
+
+.botão-comprar:hover{
+    opacity: 0.8;
+}
+
+.nav {
+    display: flex;
+    background-color: #ff9500;
+    padding: 15px 10px;
+    border-radius: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.nav p {
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.nav1 {
+    display: flex;
+    background-color: #ff0000;
+    padding: 15px 10px;
+    border-radius: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.nav1 h2{
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.carrinho{
+    height: 30px;
+    width: 30px;
+}
+
+.info {
+    width: 32px;
+    height: 32px;
+}
+
+.info1 {
+    width: 23px;
+    height: 23px;
+}
+
+.botão {
+    background-color: #ffad28;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 20px;
+    border: #ffffff;
+    width: 90px;
+    text-align: center;
+    margin-left: 48%;
+}
+
+.nav-1 {
+    display: flex;
+    background-color: #ffff60;
+    padding: 15px 10px;
+    border-radius: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.nav-1 p {
+    font-size: 20px;
+    color: #000000;
+    text-align: center;
+}
+
+.nav2{
+    display: flex;
+    background-color: #ffffff;
+    padding: 15px 10px;
+    border-radius: 30px;
+    margin-left: 60px;
+    margin-right: 1100px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.nav3{
+    display: flex;
+    background-color: #ffffff;
+    padding: 15px 10px;
+    border-radius: 30px;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.nav4{
+    display: flex;
+    background-color: #9ecfff;
+    padding: 15px 10px;
+    border-radius: 30px;
+    margin-left: 60px;
+    margin-right: 20px;
+    margin-top: 5px;
+}
